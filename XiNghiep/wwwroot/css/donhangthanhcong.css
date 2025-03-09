@@ -1,0 +1,56 @@
+/* File: wwwroot/css/styles.css */
+
+.container {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .container h2 {
+        font-size: 2rem;
+        color: #28a745;
+    }
+
+    .container img {
+        max-width: 120px;
+        margin-bottom: 1rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .container strong {
+        font-size: 1.2rem;
+    }
+
+    .container .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+        .container .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+    .container .text-primary {
+        color: #007bff !important;
+    }
+
+    .container .text-danger {
+        color: #dc3545 !important;
+    }
+
+    .container .text-muted {
+        color: #6c757d !important;
+        font-size: 0.9rem;
+    }
+
+    .container .small {
+        font-size: 0.8rem;
+    }
